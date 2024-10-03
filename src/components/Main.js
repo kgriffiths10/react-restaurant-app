@@ -1,10 +1,14 @@
 import React from 'react';
+import Specials from './Specials';
+import Testimonials from './Testimonials';
+import About from './About';
 
 function Main() {
     return (
         <main>
-            <h1>Welcome to Pinchocchio</h1>
-            <p>Reserve your table at our resturant today!</p>
+            <About />
+            <Specials />
+            <Testimonials />
         </main>
     );
 }
