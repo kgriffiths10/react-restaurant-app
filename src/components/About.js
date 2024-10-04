@@ -5,7 +5,7 @@ function About() {
     return (
         <>
             <div className='about-section'>
-                <h1>Welcome to Pinchocchio</h1>
+                <h1>Little Lemon</h1>
                 <p>We are a family owned Meditteranean restaurant, focused on traditional recipes served with a modern twist.</p>
                 <button className='reserve-btn'>Reserve a Table</button>
             </div>

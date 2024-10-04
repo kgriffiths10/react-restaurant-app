@@ -1,12 +1,10 @@
 import React from 'react';
-import Nav from './Nav';
-import logo from '../assets/Logo.svg'; 
+import About from './About';
 
 function Header() {
     return (
         <header>
-            <img src={logo} alt="Little Lemon Logo" className="logo" />
-            <Nav />
+            <About />
         </header>
     );
 }
